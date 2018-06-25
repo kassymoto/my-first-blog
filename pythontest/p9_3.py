@@ -4,7 +4,7 @@ rcParams['font.sans-serif'] = ['Tahoma']
 import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots()
-ax.plot([1,2,3], label='test')
+ax.plot([3,2,1], label='test')
 
 ax.legend()
 plt.show()
